@@ -1,0 +1,1152 @@
+HAMACHER
+gender,bpm,rr,minute,age
+s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,s24,s25,s26,s27,s28,s29,s30,s31,s32,s33,s34,s35,s36,s37,s38,s39,s40,s41,s42,s43,s44,s45,s46,s47,s48,s49,s50,
+s51,s52,s53,s54,s55,s56,s57,s58,s59,s60,s61,s62,s63,s64,s65,s66,s67,s68,s69,s70,s71,s72,s73,s74,s75,s76,s77,s78,s79,s80,s81,s82,s83,s84,s85,s86,s87,s88,s89,s90,s91,s92,s93,s94,s95,s96,s97,s98,s99,
+s100,s101,s102,s103,s104,s105,s106,s107,s108,s109,s110,s111,s112,s113,s114,s115,s116,s117,s118,s119,s120,s121,s122,s123,s124,s125,s126,s127,s128,s129
+s7
+s7 s0
+?gender gender
+HAMACHER
+gender=0 [0.0]
+ID	
+s7 s8
+?gender gender
+HAMACHER
+gender=1 [0.0]
+ID
+s0 s13
+?age age
+HAMACHER
+20<=age<=29 [4.0]
+ID	
+s13 s11
+?min minute
+True
+ID	
+s13 s17
+?end
+True
+ID	
+s11 s15
+?bpm bpm
+HAMACHER
+63<=bpm<=83 [10.0]
+ID	
+s15 s15
+?rr rr
+True
+ID	
+s15 s12
+?endrr
+True
+ID	
+s12 s13
+!ok minute
+True
+ID	
+s11 s16
+?bpm bpm
+HAMACHER
+bpm<=63 [10]
+ID	
+s11 s16
+?bpm bpm
+HAMACHER
+bpm>=83 [10]
+ID	
+s16 s16
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s16 s12
+?endrr
+True
+ID	
+s16 s14
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s16 s14
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s14 s14
+?rr rr
+True
+ID	
+s14 s19
+?endrr
+True
+ID	
+s19 s13
+!Alarm minute
+True
+ID	
+s0 s23
+?age age
+HAMACHER
+30<=age<=39 [6.0]
+ID	
+s23 s21
+?min minute
+True
+ID	
+s23 s27
+?end
+True
+ID	
+s21 s25
+?bpm bpm
+HAMACHER
+62.50<=bpm<=81.50 [9.5]
+ID	
+s25 s25
+?rr rr
+True
+ID	
+s25 s22
+?endrr
+True
+ID	
+s22 s23
+!ok minute
+True
+ID	
+s21 s26
+?bpm bpm
+HAMACHER
+bpm<=62.5 [9.5]
+ID	
+s21 s26
+?bpm bpm
+HAMACHER
+bpm>=81.50 [9.5]
+ID	
+s26 s26
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s26 s22
+?endrr
+True
+ID	
+s26 s24
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s26 s24
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s24 s24
+?rr rr
+True
+ID	
+s24 s29
+?endrr
+True
+ID	
+s29 s23
+!Alarm minute
+True
+ID	
+s0 s33
+?age age
+HAMACHER
+40<=age<=49 [8.0]
+ID	
+s33 s31
+?min minute
+True
+ID	
+s33 s37
+?end
+True
+ID	
+s31 s35
+?bpm bpm
+HAMACHER
+61.33<=bpm<=80.67 [9.67]
+ID	
+s35 s35
+?rr rr
+True
+ID	
+s35 s32
+?endrr
+True
+ID	
+s32 s33
+!ok minute
+True
+ID	
+s31 s36
+?bpm bpm
+HAMACHER
+bpm<=61.33 [9.67]
+ID	
+s31 s36
+?bpm bpm
+HAMACHER
+bpm>=80.67 [9.67]
+ID	
+s36 s36
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s36 s32
+?endrr
+True
+ID	
+s36 s34
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s36 s34
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s34 s34
+?rr rr
+True
+ID	
+s34 s39
+?endrr
+True
+ID	
+s39 s33
+!Alarm minute
+True
+ID	
+s0 s43
+?age age
+HAMACHER
+50<=age<=59 [10.0]
+ID	
+s43 s41
+?min minute
+True
+ID	
+s43 s47
+?end
+True
+ID	
+s41 s45
+?bpm bpm
+HAMACHER
+60.5<=bpm<=79.5 [9.5]
+ID	
+s45 s45
+?rr rr
+True
+ID	
+s45 s42
+?endrr
+True
+ID	
+s42 s43
+!ok minute
+True
+ID	
+s41 s46
+?bpm bpm
+HAMACHER
+bpm<=60.5 [9.5]
+ID	
+s41 s46
+?bpm bpm
+HAMACHER
+bpm>=79.5 [9.5]
+ID	
+s46 s46
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s46 s42
+?endrr
+True
+ID	
+s46 s44
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s46 s44
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s44 s44
+?rr rr
+True
+ID	
+s44 s49
+?endrr
+True
+ID	
+s49 s43
+!Alarm minute
+True
+ID	
+s0 s3
+?age age
+HAMACHER
+60<=age<=69 [12.0]
+ID	
+s3 s1
+?min minute
+True
+ID	
+s3 s7
+?end
+True
+ID	
+s1 s5
+?bpm bpm
+HAMACHER
+60.33<=bpm<=79.67 [9.67]
+ID	
+s5 s5
+?rr rr
+True
+ID	
+s5 s2
+?endrr
+True
+ID	
+s2 s3
+!ok minute
+True
+ID	
+s1 s6
+?bpm bpm
+HAMACHER
+bpm<=60.33 [9.67]
+ID	
+s1 s6
+?bpm bpm
+HAMACHER
+bpm>=79.67 [9.67]
+ID	
+s6 s6
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s6 s2
+?endrr
+True
+ID	
+s6 s4
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s6 s4
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s4 s4
+?rr rr
+True
+ID	
+s4 s9
+?endrr
+True
+ID	
+s9 s3
+!Alarm minute
+True
+ID	
+s0 s53
+?age age
+HAMACHER
+70<=age<=79 [14.0]
+ID	
+s53 s51
+?min minute
+True
+ID	
+s53 s57
+?end
+True
+ID	
+s51 s55
+?bpm bpm
+HAMACHER
+61.33<=bpm<=80.67 [9.67]
+ID	
+s55 s55
+?rr rr
+True
+ID	
+s55 s52
+?endrr
+True
+ID	
+s52 s53
+!ok minute
+True
+ID	
+s51 s56
+?bpm bpm
+HAMACHER
+bpm<=61.33 [9.67]
+ID	
+s51 s56
+?bpm bpm
+HAMACHER
+bpm>=80.67 [9.67]
+ID	
+s56 s56
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s56 s52
+?endrr
+True
+ID	
+s56 s54
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s56 s54
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s54 s54
+?rr rr
+True
+ID	
+s54 s59
+?endrr
+True
+ID	
+s59 s53
+!Alarm minute
+True
+ID	
+s0 s20
+?age age
+HAMACHER
+80<=age<=89 [16.0]
+ID	
+s20 s10
+?min minute
+True
+ID	
+s20 s40
+?end
+True
+ID	
+s10 s30
+?bpm bpm
+HAMACHER
+62.5<=bpm<=83.5 [10.5]
+ID	
+s30 s30
+?rr rr
+True
+ID	
+s30 s18
+?endrr
+True
+ID	
+s18 s20
+!ok minute
+True
+ID	
+s10 s38
+?bpm bpm
+HAMACHER
+bpm<=62.5 [10.5]
+ID	
+s10 s38
+?bpm bpm
+HAMACHER
+bpm>=83.5 [10.5]
+ID	
+s38 s38
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s38 s18
+?endrr
+True
+ID	
+s38 s28
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s38 s28
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s28 s28
+?rr rr
+True
+ID	
+s28 s48
+?endrr
+True
+ID	
+s48 s20
+!Alarm minute
+True
+ID
+s0 s63
+?age age
+HAMACHER
+90<=age<=99 [18.0]
+ID	
+s63 s61
+?min minute
+True
+ID	
+s63 s67
+?end
+True
+ID	
+s61 s65
+?bpm bpm
+HAMACHER
+64.33<=bpm<=87.67 [11.67]
+ID	
+s65 s65
+?rr rr
+True
+ID	
+s65 s62
+?endrr
+True
+ID	
+s62 s63
+!ok minute
+True
+ID	
+s61 s66
+?bpm bpm
+HAMACHER
+bpm<=64.33 [11.67]
+ID	
+s61 s66
+?bpm bpm
+HAMACHER
+bpm>=87.67 [11.67]
+ID	
+s66 s66
+??rr rr
+HAMACHER
+724<=rr<=1020 [148.0]
+ID	
+s66 s62
+?endrr
+True
+ID	
+s66 s64
+?rr rr
+HAMACHER
+724>=rr [148.0]
+ID	
+s66 s64
+?rr rr
+HAMACHER
+rr>=1020 [148.0]
+ID	
+s64 s64
+?rr rr
+True
+ID	
+s64 s69
+?endrr
+True
+ID	
+s69 s63
+!Alarm minute
+True
+ID	
+s8 s73
+?age age
+HAMACHER
+20<=age<=29 [4.0]
+ID	
+s73 s71
+?min minute
+True
+ID	
+s73 s77
+?end
+True
+ID	
+s71 s75
+?bpm bpm
+HAMACHER
+55<=bpm<=75 [10.0]
+ID	
+s75 s75
+?rr rr
+True
+ID	
+s75 s72
+?endrr
+True
+ID	
+s72 s73
+!ok minute
+True
+ID	
+s71 s76
+?bpm bpm
+HAMACHER
+bpm<=55 [10]
+ID	
+s71 s76
+?bpm bpm
+HAMACHER
+bpm>=75 [10]
+ID	
+s76 s76
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s76 s72
+?endrr
+True
+ID	
+s76 s74
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s76 s74
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s74 s74
+?rr rr
+True
+ID	
+s74 s79
+?endrr
+True
+ID	
+s79 s73
+!Alarm minute
+True
+ID	
+s8 s83
+?age age
+HAMACHER
+30<=age<=39 [6.0]
+ID	
+s83 s81
+?min minute
+True
+ID	
+s83 s87
+?end
+True
+ID	
+s81 s85
+?bpm bpm
+HAMACHER
+54.83<=bpm<=75.17 [10.17]
+ID	
+s85 s85
+?rr rr
+True
+ID	
+s85 s82
+?endrr
+True
+ID	
+s82 s83
+!ok minute
+True
+ID	
+s81 s86
+?bpm bpm
+HAMACHER
+bpm<=54.83 [10.17]
+ID	
+s81 s86
+?bpm bpm
+HAMACHER
+bpm>=75.17 [10.17]
+ID	
+s86 s86
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s86 s82
+?endrr
+True
+ID	
+s86 s84
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s86 s84
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s84 s84
+?rr rr
+True
+ID	
+s84 s89
+?endrr
+True
+ID	
+s89 s83
+!Alarm minute
+True
+ID	
+s8 s60
+?age age
+HAMACHER
+40<=age<=49 [8.0]
+ID	
+s60 s50
+?min minute
+True
+ID	
+s60 s80
+?end
+True
+ID	
+s50 s70
+?bpm bpm
+HAMACHER
+56<=bpm<=76 [10.0]
+ID	
+s70 s70
+?rr rr
+True
+ID	
+s70 s58
+?endrr
+True
+ID	
+s58 s60
+!ok minute
+True
+ID	
+s50 s78
+?bpm bpm
+HAMACHER
+bpm<=56 [10.0]
+ID	
+s50 s78
+?bpm bpm
+HAMACHER
+bpm>=76 [10.0]
+ID	
+s78 s78
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s78 s58
+?endrr
+True
+ID	
+s78 s68
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s78 s68
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s68 s68
+?rr rr
+True
+ID	
+s68 s88
+?endrr
+True
+ID	
+s88 s60
+!Alarm minute
+True
+ID	
+s8 s93
+?age age
+HAMACHER
+50<=age<=59 [10.0]
+ID	
+s93 s91
+?min minute
+True
+ID	
+s93 s97
+?end
+True
+ID	
+s91 s95
+?bpm bpm
+HAMACHER
+56<=bpm<=76 [10.0]
+ID	
+s95 s95
+?rr rr
+True
+ID	
+s95 s92
+?endrr
+True
+ID	
+s92 s93
+!ok minute
+True
+ID	
+s91 s96
+?bpm bpm
+HAMACHER
+bpm<=56 [10.0]
+ID	
+s91 s96
+?bpm bpm
+HAMACHER
+bpm>=76 [10.0]
+ID	
+s96 s96
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s96 s92
+?endrr
+True
+ID	
+s96 s94
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s96 s94
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s94 s94
+?rr rr
+True
+ID	
+s94 s99
+?endrr
+True
+ID	
+s99 s93
+!Alarm minute
+True
+ID	
+s8 s103
+?age age
+HAMACHER
+60<=age<=69 [12.0]
+ID	
+s103 s101
+?min minute
+True
+ID	
+s103 s107
+?end
+True
+ID	
+s101 s105
+?bpm bpm
+HAMACHER
+56<=bpm<=76 [10.0]
+ID	
+s105 s105
+?rr rr
+True
+ID	
+s105 s102
+?endrr
+True
+ID	
+s102 s103
+!ok minute
+True
+ID	
+s101 s106
+?bpm bpm
+HAMACHER
+bpm<=56 [10.0]
+ID	
+s101 s106
+?bpm bpm
+HAMACHER
+bpm>=76 [10.0]
+ID	
+s106 s106
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s106 s102
+?endrr
+True
+ID	
+s106 s104
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s106 s104
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s104 s104
+?rr rr
+True
+ID	
+s104 s109
+?endrr
+True
+ID	
+s109 s103
+!Alarm minute
+True
+ID	
+s8 s113
+?age age
+HAMACHER
+70<=age<=79 [14.0]
+ID	
+s113 s111
+?min minute
+True
+ID	
+s113 s117
+?end
+True
+ID	
+s111 s115
+?bpm bpm
+HAMACHER
+56<=bpm<=76 [10.0]
+ID	
+s115 s115
+?rr rr
+True
+ID	
+s115 s112
+?endrr
+True
+ID	
+s112 s113
+!ok minute
+True
+ID	
+s111 s116
+?bpm bpm
+HAMACHER
+bpm<=56 [10.0]
+ID	
+s111 s116
+?bpm bpm
+HAMACHER
+bpm>=76 [10.0]
+ID	
+s116 s116
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s116 s112
+?endrr
+True
+ID	
+s116 s114
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s116 s114
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s114 s114
+?rr rr
+True
+ID	
+s114 s119
+?endrr
+True
+ID	
+s119 s113
+!Alarm minute
+True
+ID	
+s8 s123
+?age age
+HAMACHER
+80<=age<=89 [16.0]
+ID	
+s123 s121
+?min minute
+True
+ID	
+s123 s127
+?end
+True
+ID	
+s121 s125
+?bpm bpm
+HAMACHER
+57<=bpm<=79 [11.0]
+ID	
+s125 s125
+?rr rr
+True
+ID	
+s125 s122
+?endrr
+True
+ID	
+s122 s123
+!ok minute
+True
+ID	
+s121 s126
+?bpm bpm
+HAMACHER
+bpm<=57 [11.0]
+ID	
+s121 s126
+?bpm bpm
+HAMACHER
+bpm>=79 [11.0]
+ID	
+s126 s126
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s126 s122
+?endrr
+True
+ID	
+s126 s124
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s126 s124
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s124 s124
+?rr rr
+True
+ID	
+s124 s129
+?endrr
+True
+ID	
+s129 s123
+!Alarm minute
+True
+ID	
+s8 s100
+?age age
+HAMACHER
+90<=age<=99 [18.0]
+ID	
+s100 s90
+?min minute
+True
+ID	
+s100 s120
+?end
+True
+ID	
+s90 s110
+?bpm bpm
+HAMACHER
+58.17<=bpm<=81.83 [11.83]
+ID	
+s110 s110
+?rr rr
+True
+ID	
+s110 s98
+?endrr
+True
+ID	
+s98 s100
+!ok minute
+True
+ID	
+s90 s118
+?bpm bpm
+HAMACHER
+bpm<=58.17 [11.67]
+ID	
+s90 s118
+?bpm bpm
+HAMACHER
+bpm>=81.83 [11.67]
+ID	
+s118 s118
+??rr rr
+HAMACHER
+765<=rr<=1103 [169.0]
+ID	
+s118 s98
+?endrr
+True
+ID	
+s118 s108
+?rr rr
+HAMACHER
+765>=rr [169.0]
+ID	
+s118 s108
+?rr rr
+HAMACHER
+rr>=1103 [169.0]
+ID	
+s108 s108
+?rr rr
+True
+ID	
+s108 s128
+?endrr
+True
+ID	
+s128 s100
+!Alarm minute
+True
+ID	
